@@ -4,10 +4,10 @@ on:
     branches:
       - master
 jobs:
-  runs-on: ubuntu-latest
   install:
     name: Install dependencies
     if: ${{ !(startsWith(github.event.head_commit.message, 'chore') || startsWith(github.event.head_commit.message, 'ci')) }}
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -27,6 +27,7 @@ jobs:
   build:
     name: Build Package
     needs: install
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -52,6 +53,7 @@ jobs:
     name: Publish package
     needs: build
     if: ${{ startsWith(github.event.head_commit.message, 'docs(release)') }}
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v2

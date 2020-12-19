@@ -11,7 +11,12 @@
   ],
   "scripts": {
     "build": "npx style-dictionary build --config ./config.js",
+    "build-sotrybook": "build-storybook -s public",
     "clean": "rm -rf dist",
+    "gen-version": "conventional-changelog -p angular > VERSION.md",
+    "gen-changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+    "preversion": "git fetch --tags",
+    "postversion": "yarn gen-version && yarn gen-changelog",
     "storybook": "start-storybook -p 6006 -s public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -29,6 +34,7 @@
     "@storybook/react": "^6.1.10",
     "classnames": "^2.2.6",
     "commitizen": "^4.2.2",
+    "conventional-changelog-cli": "^2.1.1",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^4.3.6",
     "less": "^3.12.2",

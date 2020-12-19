@@ -29,3 +29,7 @@ DerivedData
 # npm
 dist
 node_modules
+.eslintcache
+*.log
+storybook-static
+coverage

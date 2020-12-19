@@ -1,0 +1,54 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import { TabsState } from '@storybook/components';
+
+<Meta title="Docs/Quick start" />
+
+# 快速开始
+
+## 安装
+
+你需要安装 `@gio-design/tokens` 组件包：
+
+<TabsState initial="yarn">
+  <div id="yarn" title="Yarn">
+
+```bash
+$ yarn add @gio-design/tokens
+```
+
+  </div>
+  <div id="npm" title="NPM">
+
+```bash
+$ npm install --save @gio-design/tokens
+```
+
+  </div>
+</TabsState>
+
+## 使用
+
+在不用语言中使用。
+
+<TabsState initial="less">
+  <div id="less" title="Less">
+
+```less
+@import '~@gio-design/tokens/dist/variables.less';
+
+h1 {
+  background-color: @palette-blue-7;
+}
+```
+
+  </div>
+  <div id="javascript" title="JavaScript">
+
+```javascript
+import * as tokens from '@gio-design/tokens';
+
+let color = tokens.PaletteBlue7;
+```
+
+  </div>
+</TabsState>

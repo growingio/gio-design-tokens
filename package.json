@@ -12,6 +12,7 @@
   "scripts": {
     "build": "npx style-dictionary build --config ./config.js",
     "clean": "rm -rf dist",
+    "storybook": "start-storybook -p 6006 -s public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "GrowingIO Frontend Team <eng-frontend@growingio.com>",
@@ -19,11 +20,23 @@
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
+    "@gio-design/components": "^20.12.3",
+    "@storybook/addon-actions": "^6.1.10",
+    "@storybook/addon-essentials": "^6.1.10",
+    "@storybook/addon-links": "^6.1.10",
+    "@storybook/addon-storysource": "^6.1.10",
+    "@storybook/node-logger": "^6.1.10",
+    "@storybook/react": "^6.1.10",
+    "classnames": "^2.2.6",
     "commitizen": "^4.2.2",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^4.3.6",
+    "less": "^3.12.2",
+    "less-loader": "^7.0.2",
     "lint-staged": ">=10",
     "prettier": "2.2.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
     "style-dictionary": "2.10.2"
   },
   "config": {

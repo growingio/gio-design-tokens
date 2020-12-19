@@ -12,7 +12,7 @@
       ]
     },
     "es": {
-      "transformGroup": "js",
+      "transforms": ["attribute/cti", "name/cti/pascal", "color/hex", "size/px"],
       "buildPath": "dist/",
       "files": [
         {

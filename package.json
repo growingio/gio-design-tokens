@@ -1,6 +1,6 @@
 {
   "name": "@gio-design/tokens",
-  "version": "20.12.2",
+  "version": "20.12.3",
   "description": "GrowingIO Design tokens",
   "main": "lib/index.js",
   "unpkg": "dist/index.js",

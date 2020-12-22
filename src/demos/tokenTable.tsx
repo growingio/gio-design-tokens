@@ -3,7 +3,7 @@ import Table from '@gio-design/components/es/components/table';
 import { ColumnType } from '@gio-design/components/es/components/table/interface';
 import { Record, TokenProps, TokenTableProps } from './interfaces';
 import { dasherize } from './utils';
-import * as GIOTokens from '../dist';
+import * as GIOTokens from '../index';
 import '@gio-design/components/es/components/table/style/index.css';
 import './tokenTable.less';
 

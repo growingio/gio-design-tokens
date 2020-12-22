@@ -1,6 +1,26 @@
 {
   "source": ["properties/**/*.json"],
   "platforms": {
+    "src": {
+      "transforms": ["attribute/cti", "name/cti/pascal", "color/hex", "size/px"],
+      "buildPath": "src/",
+      "files": [
+        {
+          "destination": "index.js",
+          "format": "javascript/es6"
+        }
+      ]
+    },
+    "css": {
+      "transformGroup": "css",
+      "buildPath": "dist/",
+      "files": [
+        {
+          "destination": "variables.css",
+          "format": "css/variables"
+        }
+      ]
+    },
     "less": {
       "transformGroup": "less",
       "buildPath": "dist/",
@@ -11,9 +31,29 @@
         }
       ]
     },
-    "es": {
+    "umd": {
       "transforms": ["attribute/cti", "name/cti/pascal", "color/hex", "size/px"],
       "buildPath": "dist/",
+      "files": [
+        {
+          "destination": "index.js",
+          "format": "javascript/umd"
+        }
+      ]
+    },
+    "commonjs": {
+      "transforms": ["attribute/cti", "name/cti/pascal", "color/hex", "size/px"],
+      "buildPath": "lib/",
+      "files": [
+        {
+          "destination": "index.js",
+          "format": "javascript/module"
+        }
+      ]
+    },
+    "es": {
+      "transforms": ["attribute/cti", "name/cti/pascal", "color/hex", "size/px"],
+      "buildPath": "es/",
       "files": [
         {
           "destination": "index.js",
@@ -23,7 +63,7 @@
     },
     "typings": {
       "transformGroup": "js",
-      "buildPath": "dist/",
+      "buildPath": "es/",
       "files": [
         {
           "destination": "index.d.ts",

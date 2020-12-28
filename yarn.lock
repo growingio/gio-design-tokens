@@ -1259,12 +1259,12 @@
   integrity sha512-6U71C2Wp7r5XtFtQzYrW5iKFT67OixrSxjI4MptCHzdSVlgabczzqLe0ZSgnub/5Kp4hSbpDB1tMytZY9pwxxA==
 
 "@gio-design/components@^20.12.3":
-  version "20.12.3"
-  resolved "https://registry.yarnpkg.com/@gio-design/components/-/components-20.12.3.tgz#21bf7db650f6728af77316e8aec4c2d3de922580"
-  integrity sha512-3nU26ts0cR6+I1+FLdBvUdzzLifUkJ7XUiW6EKCrnBDUPvzxye2IItyzFF0/rxVuRQQmZfW3xaTdz1oQdR5aBg==
+  version "20.12.4"
+  resolved "https://registry.yarnpkg.com/@gio-design/components/-/components-20.12.4.tgz#70d80fed9518387cedcb0fea707cf59f9f3d9357"
+  integrity sha512-jLjsVTF+IEuYf+f9abBZZeObrBxTwEM8zTCLda0BpQ60y2wK+TLliRqrsv/oD4iGQSWbR7XcfxKxuhZ7ySLWgw==
   dependencies:
     "@gio-design/icons" "^20.12.0"
-    "@gio-design/tokens" "^20.12.1"
+    "@gio-design/tokens" "20.12.3"
     "@types/classnames" "^2.2.9"
     "@types/lodash" "^4.14.136"
     "@types/raf" "^3.4.0"
@@ -1305,10 +1305,10 @@
   dependencies:
     classnames "^2.2.6"
 
-"@gio-design/tokens@^20.12.1":
-  version "20.12.1"
-  resolved "https://registry.yarnpkg.com/@gio-design/tokens/-/tokens-20.12.1.tgz#dfd76bd80f9c56ea7b3c35cde74f72c772e5adfe"
-  integrity sha512-mCeh46G8erRp/tk5l83a3Hb2U3FmH6h/P+xARHz8r4AyYoa3ob0LqHhilBs0BoAvkQ/z/vdrhPDyPslvV+zutg==
+"@gio-design/tokens@20.12.3":
+  version "20.12.3"
+  resolved "https://registry.yarnpkg.com/@gio-design/tokens/-/tokens-20.12.3.tgz#bfa3a3c6330d86acaf9f54329922977350447a3f"
+  integrity sha512-IE2/DultN+XI8pe1T9RTqUfe82zGmJKbD7a6L0/3i95AF0Fk9FbbN7Y5N2p2I+eDK2pFHOVVto3IswThH6TIFA==
 
 "@icons/material@^0.2.4":
   version "0.2.4"

@@ -1,8 +1,10 @@
 /**
  * Do not edit directly
- * Generated on Tue, 22 Dec 2020 08:37:33 GMT
+ * Generated on Tue, 05 Jan 2021 10:59:01 GMT
  */
 
+export const ColorBackgroundCardNormal = '#FFFFFF';
+export const ColorBackgroundCardDisabled = '#F7F8FC';
 export const ColorBackgroundAvatarNormal = '#EBEDF5';
 export const ColorBackgroundAvatarHoverDropdown = '#000000';
 export const ColorBackgroundAvatarHoverRest = '#002DB3';
@@ -54,7 +56,7 @@ export const ColorBackgroundSkeletonActive = '#000000';
 export const ColorBackgroundTogglesOffNormal = '#FFFFFF';
 export const ColorBackgroundTogglesOffDisable = '#EBEDF5';
 export const ColorBackgroundTogglesOnNormal = '#3867F4';
-export const ColorBackgroundTogglesOnDisable = '#1248E9';
+export const ColorBackgroundTogglesOnDisable = '#1248e9';
 export const ColorBackgroundTogglesKnobOffNormal = '#1248E9';
 export const ColorBackgroundTogglesKnobOffDisable = '#B4B9CA';
 export const ColorBackgroundTogglesKnobOnNormal = '#FFFFFF';
@@ -98,6 +100,7 @@ export const ColorBackgroundDatePickerClick = '#F1F2F8';
 export const ColorBackgroundDatePickerActive = '#1248E9';
 export const ColorBackgroundDatePickerDisabledActive = '#DFE4EE';
 export const ColorBackgroundInputDisable = '#F7F8FC';
+export const ColorBorderCard = '#EBEDF5';
 export const ColorBorderAvatar = '#FFFFFF';
 export const ColorBorderButtonPrimaryNormal = '#3867F4';
 export const ColorBorderButtonPrimaryHover = '#1248E9';
@@ -134,6 +137,11 @@ export const ColorFontFormError = '#EC134B';
 export const ColorFontFormWarning = '#F59814';
 export const ColorFontFormActive = '#0D9F6F';
 export const ColorFontFormRequired = '#EC134B';
+export const ColorTextCardNormal = '#7B819C';
+export const ColorTextCardDisabled = '#ADB2C2';
+export const ColorTextCardTitle = '#242E59';
+export const ColorTextCardFooter = '#313E75';
+export const ColorTextCardDescription = '#7B819C';
 export const ColorTextAvatarNormal = '#CACEDB';
 export const ColorTextAvatarHover = '#FFFFFF';
 export const ColorTextBreadcrumbNormal = '#313E75';
@@ -284,6 +292,8 @@ export const RadiusBorderSmall = '4px';
 export const RadiusBorderMedium = '6px';
 export const RadiusBorderLarge = '8px';
 export const RadiusBorderPill = '50%';
+export const ShadowCardNormal = '0 0 4px rgba(123, 129, 156, 0.5)';
+export const ShadowCardHover = '0 2px 14px -2px rgba(123, 129, 156, 0.5)';
 export const ShadowAvatar = '0 0 4px 0 #DFE4EE80';
 export const ShadowCheckboxInbound = 'inset -0.5px 1px 2px 0 rgba(163, 173, 200, 0.8)';
 export const ShadowCheckboxHover =

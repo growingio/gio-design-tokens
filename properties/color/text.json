@@ -1,6 +1,23 @@
 {
   "color": {
     "text": {
+      "card": {
+        "normal": {
+          "value": "{palette.black.4.value}"
+        },
+        "disabled": {
+          "value": "{palette.black.3.value}"
+        },
+        "title": {
+          "value": "{palette.black.7.value}"
+        },
+        "footer": {
+          "value": "{palette.black.6.value}"
+        },
+        "description": {
+          "value": "{palette.black.4.value}"
+        }
+      },
       "avatar": {
         "normal": {
           "value": "{palette.gray.6.value}"

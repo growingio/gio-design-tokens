@@ -1,6 +1,14 @@
 {
   "color": {
     "background": {
+      "card": {
+        "normal": {
+          "value": "{palette.white.value}"
+        },
+        "disabled": {
+          "value": "{palette.gray.1.value}"
+        }
+      },
       "avatar": {
         "normal": {
           "value": "{palette.gray.3.value}"

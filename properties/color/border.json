@@ -1,6 +1,9 @@
 {
   "color": {
     "border": {
+      "card": {
+        "value": "{palette.gray.3.value}"
+      },
       "avatar": {
         "value": "{palette.white.value}"
       },

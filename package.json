@@ -1,7 +1,12 @@
 {
   "name": "@gio-design/tokens",
-  "version": "20.12.3",
+  "version": "21.1.0",
   "description": "GrowingIO Design tokens",
+  "keywords": [
+    "growingio",
+    "design",
+    "token"
+  ],
   "main": "lib/index.js",
   "unpkg": "dist/index.js",
   "module": "es/index.js",
@@ -16,7 +21,7 @@
     "build-sotrybook": "build-storybook -s public",
     "clean": "rm -rf dist es lib",
     "gen-version": "conventional-changelog -p angular > VERSION.md",
-    "gen-changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+    "gen-changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
     "preversion": "git fetch --tags",
     "postversion": "yarn gen-version && yarn gen-changelog",
     "storybook": "yarn build && start-storybook -p 6006 -s public",

@@ -28,13 +28,13 @@
       },
       "breadcrumb": {
         "normal": {
-          "value": "{palette.black.6.value}"
+          "value": "{palette.black.4.value}"
         },
         "hover": {
           "value": "{palette.blue.5.value}"
         },
         "click": {
-          "value": "{palette.black.6.value}"
+          "value": "{palette.blue.3.value}"
         }
       },
       "tooltip": {

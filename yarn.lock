@@ -1261,9 +1261,9 @@
   integrity sha512-6U71C2Wp7r5XtFtQzYrW5iKFT67OixrSxjI4MptCHzdSVlgabczzqLe0ZSgnub/5Kp4hSbpDB1tMytZY9pwxxA==
 
 "@gio-design/components@^21.1.1":
-  version "21.3.1"
-  resolved "https://registry.yarnpkg.com/@gio-design/components/-/components-21.3.1.tgz#56d46b2f0753c031a571fda9503efd9a8a5ee5ab"
-  integrity sha512-oyJYYUcLK7txftVW38Y81RhGBp9UJKJVBj/4Whj0gp11ssqOtqJMYBrmo+/GziYUnU+hvy42Ikli44laAcxV2g==
+  version "21.3.2"
+  resolved "https://registry.yarnpkg.com/@gio-design/components/-/components-21.3.2.tgz#7f8abff3861d3425d4b74b5a67c3acbd6e8680be"
+  integrity sha512-uTKlWQ1NS/cocN6tAqo+dOnRJUV41YPlTVBTDPG89sjeXgqFyLPwWqDdo2Y7b86M+JEOcJXMdd+2UvtN+4NYiQ==
   dependencies:
     "@gio-design/icons" "21.1.0"
     "@gio-design/tokens" "^21.3.0"

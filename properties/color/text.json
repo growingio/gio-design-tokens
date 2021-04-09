@@ -20,9 +20,6 @@
       },
       "avatar": {
         "normal": {
-          "value": "{palette.gray.6.value}"
-        },
-        "hover": {
           "value": "{palette.white.value}"
         }
       },

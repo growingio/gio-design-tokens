@@ -9,7 +9,7 @@
       }
     },
     "avatar": {
-      "value": "0 0 4px 0 {palette.gray.4.value}80"
+      "value": "drop-shadow(0px 0px 6px rgba(223, 226, 237, 0.94))"
     },
     "checkbox": {
       "inbound": {

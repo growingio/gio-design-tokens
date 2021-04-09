@@ -11,14 +11,11 @@
       },
       "avatar": {
         "normal": {
-          "value": "{palette.gray.3.value}"
+          "value": "{palette.blue.3.value}"
         },
         "hover": {
           "dropdown": {
             "value": "rgba(0, 0, 0, 0.4)"
-          },
-          "rest": {
-            "value": "{palette.blue.7.value}"
           }
         }
       },

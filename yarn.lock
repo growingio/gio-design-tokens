@@ -1620,9 +1620,9 @@
   integrity sha512-6U71C2Wp7r5XtFtQzYrW5iKFT67OixrSxjI4MptCHzdSVlgabczzqLe0ZSgnub/5Kp4hSbpDB1tMytZY9pwxxA==
 
 "@gio-design/components@^21.1.1":
-  version "21.3.1"
-  resolved "https://registry.yarnpkg.com/@gio-design/components/-/components-21.3.1.tgz#56d46b2f0753c031a571fda9503efd9a8a5ee5ab"
-  integrity sha512-oyJYYUcLK7txftVW38Y81RhGBp9UJKJVBj/4Whj0gp11ssqOtqJMYBrmo+/GziYUnU+hvy42Ikli44laAcxV2g==
+  version "21.3.3"
+  resolved "https://registry.yarnpkg.com/@gio-design/components/-/components-21.3.3.tgz#f516e4556881276aeaf875017c9ad108efd4d6ed"
+  integrity sha512-SEUsI9VwV7q3X+jSyPJqToIOQg5A5+9qamUTcVSXO9s/6OMp4GINSihclYT8VufChrlDM1JqxxWDeZTKAqUJqg==
   dependencies:
     "@gio-design/icons" "21.1.0"
     "@gio-design/tokens" "^21.3.0"
@@ -7787,12 +7787,7 @@ lodash.uniq@4.5.0:
   resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
-lodash@^4.17.12, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20:
-  version "4.17.20"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
-  integrity sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
-
-lodash@^4.17.21:
+lodash@^4.17.12, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.21:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==

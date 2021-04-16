@@ -185,13 +185,16 @@
       },
       "tree": {
         "normal": {
-          "value": "{palette.black.3.value}"
+          "value": "{palette.black.6.value}"
         },
         "disable": {
           "value": "{palette.gray.5.value}"
         },
         "selected": {
-          "value": "{palette.blue.3.value}"
+          "value": "{palette.blue.5.value}"
+        },
+        "switcher": {
+          "value": "{palette.black.3.value}"
         }
       },
       "loading": {

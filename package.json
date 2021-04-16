@@ -45,7 +45,7 @@
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^4.3.6",
     "less": "^4.0.0",
-    "less-loader": "^7.0.2",
+    "less-loader": "^8.1.1",
     "lint-staged": ">=10",
     "prettier": "2.2.1",
     "react": "^17.0.1",

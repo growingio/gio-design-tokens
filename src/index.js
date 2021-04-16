@@ -1,13 +1,12 @@
 /**
  * Do not edit directly
- * Generated on Tue, 05 Jan 2021 10:59:01 GMT
+ * Generated on Fri, 16 Apr 2021 12:31:38 GMT
  */
 
 export const ColorBackgroundCardNormal = '#FFFFFF';
 export const ColorBackgroundCardDisabled = '#F7F8FC';
-export const ColorBackgroundAvatarNormal = '#EBEDF5';
+export const ColorBackgroundAvatarNormal = '#5F87FF';
 export const ColorBackgroundAvatarHoverDropdown = '#000000';
-export const ColorBackgroundAvatarHoverRest = '#002DB3';
 export const ColorBackgroundTooltip = '#242e59';
 export const ColorBackgroundTabsNormal = '#F7F8FC';
 export const ColorBackgroundTabsHover = '#EBEDF5';
@@ -129,7 +128,7 @@ export const ColorBorderInputHover = '#1248E9';
 export const ColorBorderInputActive = '#1248E9';
 export const ColorBorderInputDisable = '#DFE4EE';
 export const ColorBorderInputError = '#EC134B';
-export const ColorBorderTable = '#CACEDB';
+export const ColorBorderTable = '#EBEDF5';
 export const ColorBorderSelectFocused = '#1248E9';
 export const ColorFontFormLabel = '#242E59';
 export const ColorFontFormNotes = '#ADB2C2';
@@ -142,11 +141,10 @@ export const ColorTextCardDisabled = '#ADB2C2';
 export const ColorTextCardTitle = '#242E59';
 export const ColorTextCardFooter = '#313E75';
 export const ColorTextCardDescription = '#7B819C';
-export const ColorTextAvatarNormal = '#CACEDB';
-export const ColorTextAvatarHover = '#FFFFFF';
-export const ColorTextBreadcrumbNormal = '#313E75';
+export const ColorTextAvatarNormal = '#FFFFFF';
+export const ColorTextBreadcrumbNormal = '#7B819C';
 export const ColorTextBreadcrumbHover = '#1248E9';
-export const ColorTextBreadcrumbClick = '#313E75';
+export const ColorTextBreadcrumbClick = '#5F87FF';
 export const ColorTextTooltip = '#FFFFFF';
 export const ColorTextTabsNormal = '#313E75';
 export const ColorTextTabsDisable = '#C7CBD8';
@@ -190,7 +188,8 @@ export const ColorTextTagVersionNew = '#EC134B';
 export const ColorTextTagVersionGrayscale = '#566190';
 export const ColorTextTreeNormal = '#313E75';
 export const ColorTextTreeDisable = '#D3D7E7';
-export const ColorTextTreeSelected = '#002DB3';
+export const ColorTextTreeSelected = '#1248E9';
+export const ColorTextTreeSwitcher = '#ADB2C2';
 export const ColorTextLoading = '#313E75';
 export const ColorTextPopconfirmTitle = '#242E59';
 export const ColorTextPopconfirmDesc = '#313E75';
@@ -294,7 +293,7 @@ export const RadiusBorderLarge = '8px';
 export const RadiusBorderPill = '50%';
 export const ShadowCardNormal = '0 0 4px rgba(123, 129, 156, 0.5)';
 export const ShadowCardHover = '0 2px 14px -2px rgba(123, 129, 156, 0.5)';
-export const ShadowAvatar = '0 0 4px 0 #DFE4EE80';
+export const ShadowAvatar = 'drop-shadow(0px 0px 6px rgba(223, 226, 237, 0.94))';
 export const ShadowCheckboxInbound = 'inset -0.5px 1px 2px 0 rgba(163, 173, 200, 0.8)';
 export const ShadowCheckboxHover =
   'inset -0.5px 1px 2px 0 rgba(163, 173, 200, 0.8), 0 2px 4px 0 rgba(223, 226, 237, 0.94)';
@@ -308,8 +307,8 @@ export const ShadowTogglesNormalCheckedKnob = '0.5px 1px 3px 0 rgba(0,0,0,0.4)';
 export const ShadowTogglesDisableKnob = '-0.5px 0 1px 0 rgba(163, 173, 200, 0.5)';
 export const ShadowPaginationButton = '0 0 4px 0 rgba(163,173,200,0.94)';
 export const ShadowPaginationInput = '0 0 4px 0 #DFE4EE80';
-export const ShadowTableRightShadow = 'inset 10px 0 8px -8px rgba(36, 33, 33, 0.15)';
-export const ShadowTableLeftShadow = 'inset -10px 0 8px -8px rgba(36, 33, 33, 0.15)';
+export const ShadowTableRightShadow = 'inset 10px 0 8px -6px rgba(36, 33, 33, 0.15)';
+export const ShadowTableLeftShadow = 'inset -10px 0 8px -6px rgba(36, 33, 33, 0.15)';
 export const SizeFieldMini = '24px';
 export const SizeFieldSmall = '30px';
 export const SizeFieldNormal = '36px';
@@ -349,3 +348,4 @@ export const ZindexPopover = 1030;
 export const ZindexDropdown = 1050;
 export const ZindexPopconfirm = 1060;
 export const ZindexTooltip = 1070;
+export const ZindexLoading = 4;

@@ -36,9 +36,9 @@
             "value": "{palette.gray.1.value}"
           }
         },
-        "assist": {
+        "text": {
           "normal": {
-            "value": "{palette.white.value}"
+            "value": "transparent"
           },
           "hover": {
             "value": "{palette.gray.3.value}"
@@ -47,7 +47,21 @@
             "value": "{palette.gray.2.value}"
           },
           "disable": {
-            "value": "{palette.white.value}"
+            "value": "transparent"
+          }
+        },
+        "link": {
+          "normal": {
+            "value": "transparent"
+          },
+          "hover": {
+            "value": "transparent"
+          },
+          "click": {
+            "value": "transparent"
+          },
+          "disable": {
+            "value": "transparent"
           }
         },
         "disable": {

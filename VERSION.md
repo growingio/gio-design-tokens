@@ -1,5 +1,5 @@
-## [21.4.1](https://github.com/growingio/gio-design-tokens/compare/v21.4.0...v21.4.1) (2021-04-16)
+## [21.4.2](https://github.com/growingio/gio-design-tokens/compare/v21.4.1...v21.4.2) (2021-04-19)
 
-### Bug Fixes
+### Features
 
-- **tree:** fix tree token ([3c393a7](https://github.com/growingio/gio-design-tokens/commit/3c393a7aa9fb226fa933ace37c15549b61d35e84))
+- update the tokens of button ([8d226e5](https://github.com/growingio/gio-design-tokens/commit/8d226e58aa80a61100a054bce6762be3656a1659))

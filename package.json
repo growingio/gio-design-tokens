@@ -17,11 +17,12 @@
     "lib"
   ],
   "scripts": {
-    "build": "npx style-dictionary build --config ./config.js",
+    "build": "style-dictionary build --config ./config.js",
     "build-sotrybook": "build-storybook -s public",
     "clean": "rm -rf dist es lib",
     "gen-version": "conventional-changelog -p angular > VERSION.md",
     "gen-changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
+    "get-version": "gio-design version -p ./package.json",
     "preversion": "git fetch --tags",
     "postversion": "yarn gen-version && yarn gen-changelog",
     "storybook": "yarn build && start-storybook -p 6006 -s public",
@@ -32,6 +33,7 @@
   "devDependencies": {
     "@commitlint/cli": "^12.0.1",
     "@commitlint/config-conventional": "^12.0.1",
+    "@gio-design/cli": "^21.2.0",
     "@gio-design/components": "^21.1.1",
     "@storybook/addon-actions": "^6.2.8",
     "@storybook/addon-essentials": "^6.2.8",

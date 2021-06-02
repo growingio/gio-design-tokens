@@ -22,18 +22,18 @@
             "value": "{palette.gray.1.value}"
           }
         },
-        "default": {
+        "secondary": {
           "normal": {
-            "value": "{palette.gray.1.value}"
+            "value": "{palette.gray.4.value}"
           },
           "hover": {
             "value": "{palette.gray.4.value}"
           },
           "click": {
-            "value": "{palette.gray.3.value}"
+            "value": "{palette.gray.4.value}"
           },
           "disable": {
-            "value": "{palette.gray.1.value}"
+            "value": "{palette.gray.4.value}"
           }
         },
         "text": {
@@ -41,7 +41,7 @@
             "value": "transparent"
           },
           "hover": {
-            "value": "{palette.gray.3.value}"
+            "value": "{palette.gray.2.value}"
           },
           "click": {
             "value": "{palette.gray.2.value}"

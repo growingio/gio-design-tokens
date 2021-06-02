@@ -69,21 +69,18 @@
             "value": "{palette.black.3.value}"
           }
         },
-        "default": {
+        "secondary": {
           "normal": {
             "value": "{palette.black.6.value}"
           },
           "hover": {
-            "value": "{palette.black.6.value}"
+            "value": "{palette.blue.5.value}"
           },
           "click": {
-            "value": "{palette.black.6.value}"
+            "value": "{palette.blue.5.value}"
           },
           "disable": {
             "value": "{palette.black.3.value}"
-          },
-          "ghost": {
-            "value": "{palette.white.value}"
           }
         },
         "text": {
@@ -91,10 +88,10 @@
             "value": "{palette.black.6.value}"
           },
           "hover": {
-            "value": "{palette.black.6.value}"
+            "value": "{palette.blue.5.value}"
           },
           "click": {
-            "value": "{palette.black.6.value}"
+            "value": "{palette.blue.5.value}"
           },
           "disable": {
             "value": "{palette.black.3.value}"
@@ -289,16 +286,16 @@
       },
       "link": {
         "normal": {
-          "value": "{palette.blue.5.value}"
-        },
-        "hover": {
-          "value": "{palette.blue.6.value}"
-        },
-        "click": {
           "value": "{palette.blue.4.value}"
         },
+        "hover": {
+          "value": "{palette.blue.5.value}"
+        },
+        "click": {
+          "value": "{palette.blue.3.value}"
+        },
         "disable": {
-          "value": "{palette.black.2.value}"
+          "value": "{palette.black.3.value}"
         },
         "contrast": {
           "value": "{palette.white.value}"

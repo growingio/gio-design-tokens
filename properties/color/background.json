@@ -54,15 +54,15 @@
             "value": "{palette.gray.1.value}"
           }
         },
-        "default": {
+        "secondary": {
           "normal": {
-            "value": "{palette.gray.1.value}"
+            "value": "transparent"
           },
           "hover": {
-            "value": "{palette.gray.4.value}"
+            "value": "{palette.gray.2.value}"
           },
           "click": {
-            "value": "{palette.gray.3.value}"
+            "value": "{palette.gray.4.value}"
           },
           "disable": {
             "value": "{palette.gray.1.value}"
@@ -73,10 +73,10 @@
             "value": "transparent"
           },
           "hover": {
-            "value": "{palette.gray.3.value}"
+            "value": "{palette.gray.2.value}"
           },
           "click": {
-            "value": "{palette.gray.2.value}"
+            "value": "{palette.gray.4.value}"
           },
           "disable": {
             "value": "transparent"

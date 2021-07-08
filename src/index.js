@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 19 Apr 2021 07:13:05 GMT
+ * Generated on Thu, 08 Jul 2021 02:20:25 GMT
  */
 
 export const ColorBackgroundCardNormal = '#FFFFFF';

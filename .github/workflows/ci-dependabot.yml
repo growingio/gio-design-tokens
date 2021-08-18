@@ -1,13 +1,10 @@
-name: Continuous Integration
+name: CI for Dependabot
 on:
-  pull_request:
+  pull_request_target:
     types: [opened, synchronize]
-  push:
-    branches:
-      - master
 jobs:
   install:
-    if: ${{ github.actor != 'dependabot[bot]' }}
+    if: ${{ github.actor == 'dependabot[bot]' }}
     name: Install dependencies
     runs-on: ubuntu-latest
     steps:
@@ -27,7 +24,7 @@ jobs:
         if: ${{ steps.cache-node-modules.outputs.cache-hit != 'true' }}
         run: yarn install
   build:
-    name: Build Package
+    name: Build package
     needs: install
     runs-on: ubuntu-latest
     steps:
@@ -42,13 +39,5 @@ jobs:
         with:
           path: node_modules
           key: ${{ runner.os }}-${{ hashFiles('yarn.lock') }}
-      - name: Cache package
-        uses: actions/cache@v2.1.6
-        with:
-          path: |
-            dist
-            es
-            lib
-          key: package-${{ github.sha }}
-      - name: Build package
+      - name: Build
         run: yarn build

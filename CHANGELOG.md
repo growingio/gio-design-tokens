@@ -1,3 +1,10 @@
+# [21.8.0](https://github.com/growingio/gio-design-tokens/compare/v21.4.1...v21.8.0) (2021-08-18)
+
+### Features
+
+- update red and green colors in palette ([b907016](https://github.com/growingio/gio-design-tokens/commit/b907016c915767cf2f41fddb721c889ea59f3961))
+- update the tokens of button ([8d226e5](https://github.com/growingio/gio-design-tokens/commit/8d226e58aa80a61100a054bce6762be3656a1659))
+
 ## [21.4.2](https://github.com/growingio/gio-design-tokens/compare/v21.4.1...v21.4.2) (2021-04-19)
 
 ### Features

@@ -1,6 +1,6 @@
 {
   "name": "@gio-design/tokens",
-  "version": "21.4.2",
+  "version": "21.8.0",
   "description": "GrowingIO Design tokens",
   "keywords": [
     "growingio",
@@ -18,14 +18,12 @@
   ],
   "scripts": {
     "build": "style-dictionary build --config ./config.js",
-    "build-sotrybook": "build-storybook -s public",
     "clean": "rm -rf dist es lib",
-    "gen-version": "conventional-changelog -p angular > VERSION.md",
     "gen-changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
+    "gen-version": "conventional-changelog -p angular",
     "get-version": "gio-design version -p ./package.json",
-    "preversion": "git fetch --tags",
-    "postversion": "yarn gen-version && yarn gen-changelog",
     "storybook": "yarn build && start-storybook -p 6006 -s public",
+    "storybook:build": "yarn build && build-storybook -s public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "GrowingIO Frontend Team <eng-frontend@growingio.com>",

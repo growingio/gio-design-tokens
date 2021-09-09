@@ -19,14 +19,8 @@ jobs:
         with:
           path: node_modules
           key: ${{ runner.os }}-${{ hashFiles('yarn.lock') }}
-      - name: Restore package from cache
-        uses: actions/cache@v2.1.6
-        with:
-          path: |
-            dist
-            es
-            lib
-          key: package-${{ github.sha }}
+      - name: Build package
+        run: yarn build
       - name: Publish package
         run: yarn publish --non-interactive --access public
         env:

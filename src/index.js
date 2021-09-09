@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 08 Jul 2021 02:20:25 GMT
+ * Generated on Thu, 09 Sep 2021 12:08:26 GMT
  */
 
 export const ColorBackgroundCardNormal = '#FFFFFF';
@@ -33,7 +33,7 @@ export const ColorBackgroundButtonDisable = '#F7F8FC';
 export const ColorBackgroundTagSign = '#F7F8FC';
 export const ColorBackgroundTagStatusSuccess = '#16CB79';
 export const ColorBackgroundTagStatusWarning = '#FAA937';
-export const ColorBackgroundTagStatusError = '#C51B08';
+export const ColorBackgroundTagStatusError = '#EC134B';
 export const ColorBackgroundTagStatusDisable = '#D3D7E7';
 export const ColorBackgroundTagFilterLightNormal = '#F7F8FC';
 export const ColorBackgroundTagFilterLightHover = '#EBEDF5';
@@ -44,7 +44,7 @@ export const ColorBackgroundTagFilterDarkHover = '#1248E9';
 export const ColorBackgroundTagFilterDarkClick = '#5F87FF';
 export const ColorBackgroundTagFilterDarkDisable = '#F7F8FC';
 export const ColorBackgroundTagVersionBeta = '#EDF2FC';
-export const ColorBackgroundTagVersionNew = '#FFF2F1';
+export const ColorBackgroundTagVersionNew = '#FFEBE6';
 export const ColorBackgroundTagVersionGrayscale = '#F7F8FC';
 export const ColorBackgroundTreeNormal = '#FFFFFF';
 export const ColorBackgroundTreeHover = '#EBEDF5';
@@ -69,7 +69,7 @@ export const ColorBackgroundDropdown = '#FFFFFF';
 export const ColorBackgroundAlertInformation = '#F7F8FC';
 export const ColorBackgroundAlertSuccess = '#E3FFF0';
 export const ColorBackgroundAlertWarning = '#FFFAE6';
-export const ColorBackgroundAlertError = '#FFF2F1';
+export const ColorBackgroundAlertError = '#FFEBE6';
 export const ColorBackgroundSignDefault = '#EC134B';
 export const ColorBackgroundSignNormal = '#16CB79';
 export const ColorBackgroundSignWarning = '#FAA937';
@@ -142,7 +142,7 @@ export const ColorFontFormLabel = '#242E59';
 export const ColorFontFormNotes = '#ADB2C2';
 export const ColorFontFormError = '#EC134B';
 export const ColorFontFormWarning = '#F59814';
-export const ColorFontFormActive = '#0D9F6F';
+export const ColorFontFormActive = '#08A65E';
 export const ColorFontFormRequired = '#EC134B';
 export const ColorTextCardNormal = '#7B819C';
 export const ColorTextCardDisabled = '#ADB2C2';
@@ -286,15 +286,15 @@ export const PaletteGreen2 = '#A4FFC8';
 export const PaletteGreen3 = '#60EA97';
 export const PaletteGreen4 = '#3DD97B';
 export const PaletteGreen5 = '#16CB79';
-export const PaletteGreen6 = '#0D9F6F';
+export const PaletteGreen6 = '#08A65E';
 export const PaletteGreen7 = '#00875A';
 export const PalettePurple1 = '#EFEFFE';
 export const PalettePurple2 = '#6263ED';
-export const PaletteRed1 = '#FFF2F1';
+export const PaletteRed1 = '#FFEBE6';
 export const PaletteRed2 = '#FFBBB3';
 export const PaletteRed3 = '#EC134B';
 export const PaletteRed4 = '#E0321F';
-export const PaletteRed5 = '#C51B08';
+export const PaletteRed5 = '#EC134B';
 export const PaletteRed6 = '#A71404';
 export const PaletteRed7 = '#8E0F01';
 export const PaletteWhite = '#FFFFFF';

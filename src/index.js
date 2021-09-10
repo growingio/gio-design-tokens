@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 09 Sep 2021 12:08:26 GMT
+ * Generated on Fri, 10 Sep 2021 11:43:39 GMT
  */
 
 export const ColorBackgroundCardNormal = '#FFFFFF';
@@ -251,8 +251,60 @@ export const ColorTextDatePickerNormal = '#313E75';
 export const ColorTextDatePickerYearNormal = '#3867F4';
 export const ColorTextDatePickerYearHover = '#1248E9';
 export const ColorTextDatePickerYearClick = '#5F87FF';
-export const FontFamilyPrimary = 'PingFang SC';
-export const FontFamilyDin = 'DIN Alternate';
+export const ColorTextTitleBase = '#242e59';
+export const ColorTextBodyBase = '#313e75';
+export const ColorTextBodyGray = '#7b819c';
+export const ColorExtended1 = '#5f87ff';
+export const ColorExtended2 = '#ffdd63';
+export const ColorExtended3 = '#62ce6c';
+export const ColorExtended4 = '#ffa455';
+export const ColorExtended5 = '#60bcfa';
+export const ColorExtended6 = '#db7892';
+export const ColorExtended7 = '#5d9ba4';
+export const ColorExtended8 = '#ffb7ae';
+export const ColorExtended9 = '#04a375';
+export const ColorExtended10 = '#d770e0';
+export const ColorExtended11 = '#7569ab';
+export const ColorExtended12 = '#ff7955';
+export const ColorExtended13 = '#cacedb';
+export const ColorPaletteWhiteBase = '#ffffff';
+export const ColorPaletteGray1 = '#f7f8fc';
+export const ColorPaletteGray2 = '#f1f2f8';
+export const ColorPaletteGray3 = '#ebedf5';
+export const ColorPaletteGray4 = '#dfe4ee';
+export const ColorPaletteGray5 = '#d3d7e7';
+export const ColorPaletteGray6 = '#cacedb';
+export const ColorPaletteGray7 = '#b4b9ca';
+export const ColorPaletteBlack1 = '#dbdee8';
+export const ColorPaletteBlack2 = '#c7cbd8';
+export const ColorPaletteBlack3 = '#adb2c2';
+export const ColorPaletteBlack4 = '#7b819c';
+export const ColorPaletteBlack5 = '#566190';
+export const ColorPaletteBlack6 = '#313e75';
+export const ColorPaletteBlack7 = '#242e59';
+export const ColorPaletteBlue1 = '#edf2fc';
+export const ColorPaletteBlue2 = '#b8d1ff';
+export const ColorPaletteBlue3 = '#5f87ff';
+export const ColorPaletteBlue4 = '#3867f4';
+export const ColorPaletteBlue5 = '#1248e9';
+export const ColorPaletteBlue6 = '#0033cc';
+export const ColorPaletteBlue7 = '#002db3';
+export const ColorPaletteGreen1 = '#e3fff0';
+export const ColorPaletteGreen2 = '#a4ffc8';
+export const ColorPaletteGreen3 = '#60ea97';
+export const ColorPaletteGreen4 = '#3dd97b';
+export const ColorPaletteGreen5 = '#16cb79';
+export const ColorPaletteGreen6 = '#08a65e';
+export const ColorPaletteGreen7 = '#00875a';
+export const ColorPaletteYellow1 = '#fffae6';
+export const ColorPaletteYellow2 = '#ffef98';
+export const ColorPaletteYellow3 = '#ffd15b';
+export const ColorPaletteYellow4 = '#ffc449';
+export const ColorPaletteYellow5 = '#faa937';
+export const ColorPaletteYellow6 = '#f59814';
+export const ColorPaletteYellow7 = '#e6880a';
+export const ColorPaletteRed1 = '#ffebe6';
+export const ColorPaletteRed5 = '#ec134b';
 export const PaletteBlue1 = '#EDF2FC';
 export const PaletteBlue2 = '#B8D1FF';
 export const PaletteBlue3 = '#5F87FF';
@@ -361,3 +413,5 @@ export const ZindexDropdown = 1050;
 export const ZindexPopconfirm = 1060;
 export const ZindexTooltip = 1070;
 export const ZindexLoading = 4;
+export const FontFamilyPrimary = "'PingFang SC', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif";
+export const FontFamilyNumber = 'Lato, sans-serif';

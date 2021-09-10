@@ -1,0 +1,19 @@
+{
+  "color": {
+    "text": {
+      "title": {
+        "base": {
+          "value": "{color.palette.black.7.value}"
+        }
+      },
+      "body": {
+        "base": {
+          "value": "{color.palette.black.6.value}"
+        },
+        "gray": {
+          "value": "{color.palette.black.4.value}"
+        }
+      }
+    }
+  }
+}

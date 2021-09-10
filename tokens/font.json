@@ -1,0 +1,12 @@
+{
+  "font": {
+    "family": {
+      "primary": {
+        "value": "'PingFang SC', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif"
+      },
+      "number": {
+        "value": "Lato, sans-serif"
+      }
+    }
+  }
+}

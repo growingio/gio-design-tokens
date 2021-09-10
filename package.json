@@ -1,14 +1,14 @@
 {
   "name": "@gio-design/tokens",
   "version": "21.8.0",
-  "description": "GrowingIO Design tokens",
+  "description": "Design tokens of GrowingIO Design System",
   "keywords": [
     "growingio",
     "design",
     "token"
   ],
   "main": "lib/index.js",
-  "unpkg": "dist/index.js",
+  "unpkg": "dist/tokens.js",
   "module": "es/index.js",
   "types": "es/index.d.ts",
   "files": [
@@ -17,14 +17,13 @@
     "lib"
   ],
   "scripts": {
-    "build": "style-dictionary build --config ./config.js",
-    "clean": "rm -rf dist es lib",
+    "build": "style-dictionary build",
+    "clean": "rm -rf dist es lib src/index.js",
     "gen-changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
     "gen-version": "conventional-changelog -p angular",
     "get-version": "gio-design version -p ./package.json",
     "storybook": "yarn build && start-storybook -p 6006 -s public",
-    "storybook:build": "yarn build && build-storybook -s public",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "storybook:build": "yarn build && build-storybook -s public"
   },
   "author": "GrowingIO Frontend Team <eng-frontend@growingio.com>",
   "license": "Apache-2.0",
@@ -52,7 +51,7 @@
     "prettier": "2.3.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "style-dictionary": "2.10.2",
+    "style-dictionary": "3.0.2",
     "webpack": "^5.52.0"
   },
   "config": {

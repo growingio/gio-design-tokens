@@ -1,8 +1,6 @@
-const path = require('path');
-
 module.exports = {
   addons: [
-    '@storybook/addon-links',
+    // addons on top
     {
       name: '@storybook/addon-docs',
       options: {
@@ -11,15 +9,8 @@ module.exports = {
         },
       },
     },
-    {
-      name: '@storybook/addon-storysource',
-      options: {
-        loaderOptions: {
-          prettierConfig: { printWidth: 80, singleQuote: false },
-        },
-      },
-    },
-    '@storybook/addon-essentials',
+    // addons on right side
+    '@storybook/addon-actions',
   ],
   core: {
     builder: 'webpack5',

@@ -3,12 +3,13 @@ import React from 'react';
 interface ColorCardProps {
   color: string;
   name: string;
+  onClick?: React.MouseEventHandler;
 }
 
-function ColorCard({ color, name }: ColorCardProps) {
+function ColorCard({ color, name, onClick }: ColorCardProps) {
   const prefixCls = 'demo-color-card';
   return (
-    <div className={prefixCls}>
+    <div className={prefixCls} onClick={onClick}>
       <div className={`${prefixCls}__header`}>{name}</div>
       <div className={`${prefixCls}__body`}>
         <div className={`${prefixCls}__white`} />

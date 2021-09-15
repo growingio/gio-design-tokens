@@ -1,0 +1,15 @@
+{
+  "color": {
+    "background": {
+      "base": {
+        "value": "{color.palette.white.base.value}"
+      },
+      "hover": {
+        "value": "{color.palette.gray.3.value}"
+      },
+      "selected": {
+        "value": "{color.palette.gray.2.value}"
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "color": {
+    "font": {
+      "base": {
+        "value": "{color.palette.black.6.value}"
+      },
+      "primary": {
+        "value": "{color.palette.blue.5.value}"
+      },
+      "disabled": {
+        "value": "{color.palette.black.3.value}"
+      },
+      "inverse": {
+        "value": "{color.palette.white}"
+      }
+    }
+  }
+}

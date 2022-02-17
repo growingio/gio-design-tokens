@@ -29,7 +29,7 @@
   "author": "GrowingIO Frontend Team <eng-frontend@growingio.com>",
   "license": "Apache-2.0",
   "devDependencies": {
-    "@commitlint/cli": "^13.1.0",
+    "@commitlint/cli": "^16.2.1",
     "@commitlint/config-conventional": "^13.1.0",
     "@gio-design/cli": "^21.2.0",
     "@gio-design/components": "^21.1.1",

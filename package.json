@@ -30,7 +30,7 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "@commitlint/cli": "^13.1.0",
-    "@commitlint/config-conventional": "^13.1.0",
+    "@commitlint/config-conventional": "^17.4.4",
     "@gio-design/cli": "^21.2.0",
     "@gio-design/components": "^21.1.1",
     "@storybook/addon-actions": "^6.3.8",
